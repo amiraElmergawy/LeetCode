@@ -6,7 +6,6 @@ class Solution {
         int right, left;
         int rightRemainder = x;
         int leftRemainder = x;
-        //Math.log10(n)+1
         int leftRemainderSize = (int)Math.log10(leftRemainder)+1;
         final int size = leftRemainderSize/2;
         while(leftRemainderSize != size){
